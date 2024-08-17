@@ -5,8 +5,9 @@
     animation-name: Close;
     animation-duration: 0.5s;
     background-color: #007E8F;
-    box-shadow: 6px 0px 5px rgba(0, 0, 0, 0.25);
-    z-index: 1;
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 1000;
 }
 
 .sidebarHeader {
@@ -30,6 +31,7 @@
 
 .menu {
     margin-left: 18px;
+
 }
 
 .menu svg {
@@ -95,6 +97,9 @@
     animation-duration: 1s;
     animation-fill-mode: forwards;
     background-color: #007E8F;
+    box-shadow: 5px 0px 5px 0px rgb(0, 0, 0, 0.25);
+    /* position:initial; */
+    z-index: 1000;
 }
 
 .sidebarOpen .sidebarHeader {
